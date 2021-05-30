@@ -346,7 +346,7 @@ contract BEP20Standard is Context, IBEP20, Ownable {
 
   constructor() {
     _name = "Tito Coin";
-    _symbol = "TTCN2";
+    _symbol = "TTCN";
     _decimals = 18;
     _totalSupply = 1000000 * 10 ** 18; // 1 million
     _balances[msg.sender] = _totalSupply; // It assigns totalSupply to the contract deployer
